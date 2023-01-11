@@ -38,7 +38,7 @@ While Windows' bad reputation was probably justified at a time, news versions se
 
 ### Constructive Critics
 
-This year, I've seen multiple cases where Microsoft teams did not answer appropriately to major security alerts, ignoring security researchers and almost marking critical vulnerabilities as _won't fix_ or not answering at all.
+In 2022, I've seen multiple cases where Microsoft teams did not answer appropriately to major security alerts, ignoring security researchers and almost marking critical vulnerabilities as _won't fix_ or not answering at all.
 
 Specialists regularly complain about that. It's problematic as some flaws remain unpatched for weeks or months without remediation, sometimes without any mitigation.
 
