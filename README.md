@@ -71,12 +71,12 @@ Nope. Don't get me wrong with this guide. My point is that it's probably less sh
 My shortlist, no bullshit:
 
 * Enable Windows built-in security (Defender, Firewall, etc).
-* Keep the system up-to-date (Windows update): download and install **all** patches.
+* Keep the system up-to-date: download and install **all** patches available.
 * Keep the BIOS and the firmware up-to-date.
 * Encrypt the hard drive with [BitLocker](https://learn.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview).
 * Connecting with Microsoft accounts is only useful to enable [Windows Hello](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello). Otherwise, use local accounts only.
 * Apply the least privilege principle: not all users need admin privileges.
-* As admin, define local security policies (e.g., strong password policy), apply mitigations, and sync files to make regular backups (e.g., cloud).
+* As admin, define local security policies (e.g., strong password policy), apply mitigations, and sync files to make regular backups (e.g., have a clear recovery strategy).
 
 It does not mean you get a digital fortress after that, but it's not trivial to hack and usually requires social engineering and more sophisticated scenarios to make people install crap.
 
