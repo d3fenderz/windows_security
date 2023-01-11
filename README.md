@@ -108,7 +108,7 @@ It's hard to provide a generic list, as there are many configurations and produc
 * Consider suites like Windows 365 that provides recommendations for admins and advanced endpoint protection (there are many credible alternatives, but cloud-based security can be rewarding)
 * Apply the least privilege principle
 * Don't trust the default settings: define security policies (e.g., strong password policy), apply mitigations, and have a recovery strategy
-* Log sensitive [Powershell](https://learn.microsoft.com/en-us/powershell/) commands
+* Log sensitive [Powershell](https://learn.microsoft.com/en-us/powershell/) commands (e.g., Invoke-WebRequest, Get-FileHash)
 * Monitor endpoints, network traffic, and unusual activities
 
 ### Most bypasses involve initial access and malicious TCP connections
