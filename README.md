@@ -4,14 +4,28 @@ Is Windows a joke or are you? 🧢
 
 ## Disclaimers
 
+### Report inaccuracies
+
 If you find something wrong or inaccurate, please share your point of view (e.g., in an issue).
+
+### What you won't find here
 
 It's important you don't get confused by this guide. I'm deliberately ignoring essential parts of the critics, like **privacy**.
 
 In this case, yes, Windows is a bad joke, and I mean it. You may want to disable all telemetries, but the system starts multiple processes silently (e.g., with Edge) without asking for your permission.
 Despite some notable efforts in the latest releases, a quick analysis reveals **surprising** behaviors...
 
+### The system is constantly under attack
+
 In another perpsective, I'm not saying Windows is "unhackable." THAT would be a terrible joke! Besides, I know it's relatively easy to fool Windows built-in security, for example, using obfuscation, but we'll see it's not necessarily a good indicator.
+
+### Aggressive patch management is hard
+
+I've been told that many organizations struggle with security patches, and I'm aware of that. I've done code maintenance for many companies, and even as a simple developer, it was sometimes hard to apply all updates, especially the major ones with breaking changes.
+
+While it's hard to keep pace, sysadmins can often apply advisories and alternative mitigations provided by Microsoft instead, even if it's not always possible. Still, such temporary fixes cannot last forever.
+
+Besides, it should remain an exception.
 
 ## General
 
