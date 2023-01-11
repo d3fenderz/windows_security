@@ -265,7 +265,7 @@ The good news is you can export/import policies as Windows allows you to save th
 
 ### A Misknown feature
 
-The vast majority of Windows users, including admins, rely on default policies. However, Windows does not enable many security mechanisms by default ( Windows 11 has a better default strategy, though), which extends the attack suface.
+The vast majority of Windows users, including admins, rely on default policies. However, Windows does not enable many security mechanisms by default ( Windows 11 has a better default strategy, though), which extends the attack surface.
 
 It can prevent some risky behaviors and force good security hygiene.
 
