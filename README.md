@@ -299,7 +299,7 @@ It might look obvious, but the following _reco_ are helpful:
 
 * don't give admin privileges to non-admin roles (least privilege principle)
 * don't rely on out-of-the-box roles and default permissions
-* update and patch all the things
+* update and patch all the things (casual users may use Windows Updatea and applications' automatic updates or package managers such as [chocolatey](https://chocolatey.org/).
 * disallow unused protocols and remove remote access tools when it's not needed
 * disable services with unquoted service paths
 * use password manager or PAM (Privileged Access Management) solutions
@@ -349,6 +349,12 @@ Some situations are more tricky for attackers:
 
 [Source: Microsoft - Dynamic-Link Security](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-security?redirectedfrom=MSDN)
 
+## Additional tools for casual users
+
+These two softs are credible alternatives to the built-in firewall and can even improve your privacy:
+
+* [simplewall](https://github.com/henrypp/simplewall)
+* [tinywall](https://tinywall.pados.hu/download.php)
 
 ## Best resources
 
