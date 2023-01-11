@@ -11,7 +11,7 @@ It's important you don't get confused by this guide. I'm deliberately ignoring e
 In this case, yes, Windows is a bad joke, and I mean it. You may want to disable all telemetries, but the system starts multiple processes silently (e.g., with Edge) without asking for your permission.
 Despite some notable efforts in the latest releases, a quick analysis reveals **surprising** behaviors...
 
-In another perpsective, I'm not saying Windows is "unhackable." THAT would be a terrible joke! Besides, I know it's relatively easy to full Windows built-in security, for example, using obfuscation, but we'll see it's not necessarily a good indicator.
+In another perpsective, I'm not saying Windows is "unhackable." THAT would be a terrible joke! Besides, I know it's relatively easy to fool Windows built-in security, for example, using obfuscation, but we'll see it's not necessarily a good indicator.
 
 ## General
 
