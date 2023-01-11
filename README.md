@@ -106,10 +106,10 @@ It's hard to provide a generic list, as there are many configurations and produc
 * Keep the system up-to-date, including the BIOS and the firmware, but also applications
 * Encrypt hard drives with [BitLocker](https://learn.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview).
 * Consider suites like Windows 365 that provides recommendations for admins and advanced endpoint protection (there are many credible alternatives, but cloud-based security can be rewarding)
-* Apply the least privilege principle
-* Don't trust the default settings: define security policies (e.g., strong password policy), apply mitigations, and have a recovery strategy
+* Apply the least privilege principle [see documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/secure-least-privileged-access)
+* Don't trust the default settings: define security policies (e.g., strong password policy), apply mitigations (e.g, Group Policies, additional kernel protection), and have a proper recovery strategy (tested)
 * Log sensitive [Powershell](https://learn.microsoft.com/en-us/powershell/) commands (e.g., Invoke-WebRequest, Get-FileHash)
-* Monitor endpoints, network traffic, and unusual activities
+* Monitor endpoints, network traffic, and unusual activities (e.g., SIEMs, behavioral analysis, packets sniffers, event logs)
 
 ### Most bypasses involve initial access and malicious TCP connections
 
@@ -193,10 +193,10 @@ The ultimate goal is usually to gain persistence, as some hives and keys control
 
 There are several ways:
 
-* backup entries regularly
-* monitor registry editing
+* backup entries regularly (e.g., manual backups, scheduled tasks, regshot)
+* monitor registry editing (again, regshot can help you compare 2 snapshots, for example, with the "compare" button)
 * whitelist allowed software
-* restrict access to the editor
+* restrict access to the editor (e.g., using a registry entry or a group policy)
 * define local group policies to lock keys
 * program `reg query` commands to reset keys on startup
 * stop using software like ccleaner that can mess up everything (it allows the user to delete keys)
