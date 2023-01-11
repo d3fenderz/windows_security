@@ -119,14 +119,6 @@ However, what bypasses Windows Defender is usually obfuscated powershell command
 
 Besides, cybercriminals often use legitimate platforms as "C&C" servers to bypass detection tools that focus on blacklisted domains and IP ranges.
 
-### The Windows Registry
-
-The Registry is one of the most critical areas to protect and monitor, as `reg query` commands allows reading and modifying pretty much everything on the system, including security settings. Using a group policy (gpedit.msc > user configuration > system: "prevent access to the registry editing tools") or the Registry itself, you can restrict its access.
-
-It's not the ultimate protection, but it's still an additional layer.
-
-You can use software like [regshot](https://sourceforge.net/projects/regshot/) to take snapshots of the Registry. It's useful to restore the system when it gets unstable, and also valuable for forensic analysis.
-
 ### The System32
 
 You can read [this blog post](https://jmau111.github.io/2022/11/25/windows-system32-forensics/) for a quick introduction to essential concepts. 
@@ -160,6 +152,12 @@ There are various enumerations and attacks that pen-testers can perform to extra
 [Source: A quick Journey In The System32](https://jmau111.github.io/2022/11/25/windows-system32-forensics/#basic-forensics)
 
 **It's essential to backup registry entries before any modification**, as the system continually references them during its operations.
+
+The Registry is one of the most critical areas to protect and monitor, as `reg query` commands allows reading and modifying pretty much everything on the system, including security settings. Using a group policy (gpedit.msc > user configuration > system: "prevent access to the registry editing tools") or the Registry itself, you can restrict its access.
+
+It's not the ultimate protection, but it's still an additional layer.
+
+You can use software like [regshot](https://sourceforge.net/projects/regshot/) to take snapshots of the Registry. It's useful to restore the system when it gets unstable, and also valuable for forensic analysis.
 
 ### What are the hives?
 
