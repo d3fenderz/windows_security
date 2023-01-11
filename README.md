@@ -6,7 +6,7 @@ Is Windows a joke or are you? 🧢
 
 If you find something wrong or inaccurate, please share your point of view (e.g., in an issue).
 
-It's important you don't get confused by this guide. I'm deliberately ignoring an essential parts of the critics, like **privacy**.
+It's important you don't get confused by this guide. I'm deliberately ignoring an essential part of the critics, like **privacy**.
 
 In this case, yes, Windows is a bad joke, and I mean it. You may want to disable all telemetries, but the system starts multiple processes silently (e.g., with Edge) without asking for your permission.
 Despite some notable efforts in the latest releases, a quick analysis reveals **surprising** behaviors...
