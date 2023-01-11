@@ -71,7 +71,7 @@ Nope. Don't get me wrong with this guide. My point is that it's probably less sh
 My shortlist, no bullshit:
 
 * Enable Windows built-in security (Defender, Firewall, etc).
-* Keep the system up-to-date: download and install **all** patches available.
+* Keep the system and the applications up-to-date: download and install **all** patches available.
 * Keep the BIOS and the firmware up-to-date.
 * Encrypt the hard drive with [BitLocker](https://learn.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview).
 * Connecting with Microsoft accounts is only useful to enable [Windows Hello](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello). Otherwise, use local accounts only.
