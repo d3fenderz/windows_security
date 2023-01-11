@@ -298,12 +298,12 @@ You may also read the terms "horizontal" and "vertical." The first one refers to
 It might look obvious, but the following _reco_ are helpful:
 
 * don't give admin privileges to non-admin roles (least privilege principle)
-* don't rely on out-of-the-box roles and default permissions
-* update and patch all the things (casual users may use Windows Updatea and applications' automatic updates or package managers such as [chocolatey](https://chocolatey.org/).
+* don't rely on out-of-the-box roles and default permissions (yes, there's a risk of misconfiguration)
+* update and patch all the things (casual users may use Windows Update and applications' automatic updates or package managers such as [chocolatey](https://chocolatey.org/).
 * disallow unused protocols and remove remote access tools when it's not needed
 * disable services with unquoted service paths
 * use password manager or PAM (Privileged Access Management) solutions
-* force MFA for **all** accounts
+* force MFA for **all** accounts (e.g., AD, Cloud)
 
 ### Don't focus on the tools
 
@@ -345,13 +345,13 @@ Some situations are more tricky for attackers:
 * if only authorized admins can interact with service changes and target path locations
 * if file execution is disabled in user directories (e.g., downloads, tmp)
 * if `AlwaysInstallElevated` policy is set to disabled [^2] (as you woud expect by default)
-* if standard users do no have write permissions in the Registry
+* if standard users do no have write permissions in the Registry (policy)
 
 [Source: Microsoft - Dynamic-Link Security](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-security?redirectedfrom=MSDN)
 
 ## Additional tools for casual users
 
-These two softs are credible alternatives to the built-in firewall and can even improve your privacy:
+These two softs are credible alternatives (at least, to me) to the built-in firewall and can even improve your privacy:
 
 * [simplewall](https://github.com/henrypp/simplewall)
 * [tinywall](https://tinywall.pados.hu/download.php)
