@@ -89,7 +89,7 @@ My shortlist, no bullshit:
 * Keep the BIOS and the firmware up-to-date.
 * Encrypt the hard drive with [BitLocker](https://learn.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview).
 * Connecting with Microsoft accounts is only useful to enable [Windows Hello](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello). Otherwise, use local accounts only.
-* Apply the least privilege principle: not all users need admin privileges.
+* Apply the least privilege principle: not all users need admin privileges (even you don't need to be admin all the time, so maybe create a standard account for daily activities)
 * As admin, define local security policies (e.g., strong password policy), apply mitigations, and sync files to make regular backups (e.g., have a clear recovery strategy).
 
 It does not mean you get a digital fortress after that, but it's not trivial to hack and usually requires social engineering and more sophisticated scenarios to make people install crap.
@@ -313,7 +313,7 @@ It might look obvious, but the following _reco_ are helpful:
 
 * don't give admin privileges to non-admin roles (least privilege principle)
 * don't rely on out-of-the-box roles and default permissions (yes, there's a risk of misconfiguration)
-* update and patch all the things (casual users may use Windows Update and applications' automatic updates or package managers such as [chocolatey](https://chocolatey.org/).
+* update and patch all the things: users may use Windows Update and applications' automatic updates or package managers such as [chocolatey](https://chocolatey.org/).
 * disallow unused protocols and remove remote access tools when it's not needed
 * disable services with unquoted service paths
 * use password manager or PAM (Privileged Access Management) solutions
