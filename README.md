@@ -1,5 +1,7 @@
 # Is Windows a joke [security analysis]?
 
+![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/windowsa_security?label=last%20update%3A)
+
 Is Windows a joke or are you? 🧢
 
 ## Disclaimers
