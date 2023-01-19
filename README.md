@@ -8,7 +8,7 @@ Is Windows a joke or are you? 🧢
 
 ### Report inaccuracies
 
-If you find something wrong or inaccurate, please share your point of view (e.g., in an issue).
+If you find something wrong or inaccurate, please [share your point of view](https://github.com/jmau111-org/windows_security/discussions/8).
 
 ### What you won't find here
 
