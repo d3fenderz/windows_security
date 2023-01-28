@@ -4,34 +4,22 @@
 
 Is Windows a joke or are you? 🧢
 
-## Disclaimers
-
 ### Report inaccuracies
 
 If you find something wrong or inaccurate, please [share your point of view](https://github.com/jmau111-org/windows_security/discussions/8).
 
-### What you won't find here
+### Windows is "inherently insecure"?
 
-It's important you don't get confused by this guide. I'm deliberately ignoring essential parts of the critics, like **privacy**.
+https://github.com/jmau111-org/windows_security/issues/7
 
-In this case, yes, Windows is a bad joke, and I mean it. You may want to disable all telemetries, but the system starts multiple processes silently (e.g., with Edge) without asking for your permission.
-Despite some notable efforts in the latest releases, a quick analysis reveals **surprising** behaviors...
+I'm neither a Windows advocate nor a fan boy. This issue is real. Still, there are ways to counterbalance/mitigate that, and other systems are not immune to similar attacks.
 
-### The system is constantly under attack
-
-In another perpsective, I'm not saying Windows is "unhackable." THAT would be a terrible joke! Besides, I know it's relatively easy to fool Windows built-in security, for example, using obfuscation, but we'll see it's not necessarily a good indicator.
-
-### Aggressive patch management is hard
-
-I've been told that many organizations struggle with security patches, and I'm aware of that. I've done code maintenance for many companies, and even as a simple developer, it was sometimes hard to apply all updates, especially the major ones with breaking changes.
-
-While it's hard to keep pace, sysadmins can often apply advisories and alternative mitigations provided by Microsoft instead, even if it's not always possible. Still, such temporary fixes cannot last forever.
-
-Besides, it should remain an exception.
+If you're afraid of phishing campaigns and users clicking on tricked file types, then take the appropriate measures.
 
 ## General
 
 I'm probably not the only one to make jokes about Windows and its vulnerabilities. Indeed, Microsoft sells products to the vast majority of individuals, but organizations as well.
+
 A large range of businesses rely on Active Directories and other Microsoft technologies for their daily activities.
 
 Millions of users use these products every day. That's why it's a primary target for cybercriminals.
