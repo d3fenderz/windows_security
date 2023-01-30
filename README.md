@@ -4,11 +4,11 @@
 
 Is Windows a joke or are you? 🧢
 
-### Report inaccuracies
+## Report inaccuracies
 
 If you find something wrong or inaccurate, please [share your point of view](https://github.com/jmau111-org/windows_security/discussions/8).
 
-### Windows is "inherently insecure"?
+## Windows is "inherently insecure"?
 
 https://github.com/jmau111-org/windows_security/issues/7
 
