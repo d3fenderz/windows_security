@@ -339,6 +339,8 @@ Or classic downgrade attacks and injections powered by [unicorn](https://github.
 
 Don't forget PowerShell has advanced logging capabilities to record and monitor sensitive commands, like `Invoke`.
 
+[Read the cheat sheet](https://github.com/jmau111-org/powershell_commands) to learn PowerShell attacks and effective defense mechanisms.
+
 ### Even more mitigations 🔒
 
 Some situations are more tricky for attackers:
