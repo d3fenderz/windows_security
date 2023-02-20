@@ -10,9 +10,7 @@ If you find something wrong or inaccurate, please [share your point of view](htt
 
 ## Windows is "inherently insecure"?
 
-https://github.com/jmau111-org/windows_security/issues/7
-
-I'm neither a Windows advocate nor a fan boy. This issue is real. Still, there are ways to counterbalance/mitigate that, and other systems are not immune to similar attacks.
+I'm neither a Windows advocate nor a fan boy. [This issue](https://github.com/jmau111-org/windows_security/issues/7) is real. Still, there are ways to counterbalance/mitigate that, and other systems are not immune to similar attacks.
 
 If you're afraid of phishing campaigns and users clicking on tricked file types, then take the appropriate measures.
 
