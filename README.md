@@ -1,16 +1,16 @@
 # Is Windows a joke [security analysis]?
 
-![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/windows_security?label=last%20update%3A)
+![GitHub last commit](https://img.shields.io/github/last-commit/d3fenderz/windows_security?label=last%20update%3A)
 
 Is Windows a joke or are you? 🧢
 
 ## Report inaccuracies
 
-If you find something wrong or inaccurate, please [share your point of view](https://github.com/jmau111-org/windows_security/discussions/8).
+If you find something wrong or inaccurate, please [share your point of view](https://github.com/d3fenderz/windows_security/discussions/8).
 
 ## Windows is "inherently insecure"?
 
-I'm neither a Windows advocate nor a fan boy. [This issue](https://github.com/jmau111-org/windows_security/issues/7) is real. Still, there are ways to counterbalance/mitigate that, and other systems are not immune to similar attacks.
+I'm neither a Windows advocate nor a fan boy. [This issue](https://github.com/d3fenderz/windows_security/issues/7) is real. Still, there are ways to counterbalance/mitigate that, and other systems are not immune to similar attacks.
 
 If you're afraid of phishing campaigns and users clicking on tricked file types, then take the appropriate measures.
 
@@ -337,7 +337,7 @@ Or classic downgrade attacks and injections powered by [unicorn](https://github.
 
 Don't forget PowerShell has advanced logging capabilities to record and monitor sensitive commands, like `Invoke`.
 
-[Read the cheat sheet](https://github.com/jmau111-org/powershell_commands) to learn PowerShell attacks and effective defense mechanisms.
+[Read the cheat sheet](https://github.com/d3fenderz/powershell_commands) to learn PowerShell attacks and effective defense mechanisms.
 
 ### Even more mitigations 🔒
 
