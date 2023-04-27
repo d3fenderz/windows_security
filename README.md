@@ -39,8 +39,6 @@ You need to be a power user to leverage the benefits of Linux. While the latest 
 
 At least, Windows simplifies the process and helps all users secure their machine (e.g., security patches, automatic updates, BIOS flashing, firmware updates).
 
-IMHO, the only operating system that does a much better job than Windows to protect its users is macOS, with robust configurations, isolation, and other magics.
-
 ### What you will find here
 
 I'm writing this guide to help you understand Windows and its security mechanisms. You'll also get helpful links to dig further. We'll see how to harden your configuration and activate interesting options.
@@ -60,7 +58,7 @@ Attacks can be identified by static analysis and signature-based detection. It's
 During forensic investigations and malware analysis, you may upload binaries or `.dll` to VirusTotal, but such static analysis on suspicious files won't help you with malicious instructions in memory.
 In many cases, defenders need dynamic analysis too, like behavioral detection, as built-in commands and mechanisms can be used to download poison from external IPs to install malware.
 
-Windows cannot prevent users from installing third-party applications, which is often how cybercriminal compromise their victims.
+Windows cannot prevent users from installing third-party applications by default, which is often the path used by cybercriminals compromise their victims.
 
 ### So, Windows is perfect?
 
